@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "marge-bot-slack-tool"
+version = "0.1.0"
+description = "marge-bot-slack-tool posts helpful messages to Slack when multiple MRs are waiting to be merged by Marge-bot"
+authors = [
+    "Per Lundberg <per.lundberg@hibox.tv>",
+]
+repository = "https://github.com/hiboxsystems/marge-bot-slack-tool"
+
+[tool.poetry.dependencies]
+python = "~3.11"
+
+[tool.poetry.dev-dependencies]
+autopep8 = "*"
+pycodestyle = "~2.10"
+
+[build-system]
+requires = ["poetry-core>=1.4.0"]
